@@ -1,0 +1,115 @@
+/*-----laptop query*/
+body{
+    height: auto;
+    margin: 0;
+    font-family: sans-serif;
+    width: 100%;
+    display: block;
+    background-color: rgba(236, 122, 40, 0.5);
+}
+.phone{
+    display: none;
+}
+.laptop{
+    display: block;
+}
+/*-----menu----*/
+.p_menu{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+.menu_section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+.github,.youtube,.linked,.cv{
+    text-decoration: none;
+    color: black;
+    padding: 10%;
+    transition: 1s;
+}
+.github{
+    margin-left:10%;
+}
+.h2_p{
+    text-align: center;
+}
+.imgh{
+    width: 30%;
+    border-radius: 50%;
+    display: block;
+    margin-left: 20%;
+}
+.real_section{
+    width: 60%;
+    height: auto;
+    display: flex;
+    gap: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-----menu----*/
+/*-----laptop query*/
+/*-----phone query*/
+@media(max-width:500px){
+    body{
+    height: auto;
+    margin: 0;
+    font-family: sans-serif;
+    width: 100%;
+    display: block;
+    background-color: rgba(48, 44, 41, 0.5);
+    }
+    .laptop{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
+    /*----menu--*/
+    .p_menu{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: block;
+    }
+    .menu_section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+    }
+    .github,.youtube,.linked,.cv{
+        text-decoration: none;
+        color: black;
+        padding: 10%;
+        transition: 1s;
+    }
+    .github{
+        margin-left:10%;
+    }
+    .imgh{
+        width: 40%;
+        border-radius: 50%;
+        display: block;
+        margin-left: 5%;
+    }
+    .h2_p{
+        text-align: center;
+    }
+    .real_section{
+        width: 60%;
+        height: auto;
+        display: flex;
+        gap: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /*----menu--*/
+}
+/*-----phone query*/
+
